@@ -1,53 +1,82 @@
 <a href="index.html">Home</a>
 <h1>Forms</h1>
 
-
-
 <form action="https://mms-it.com/" method="get">
+  <div>
+    <label for="">Email</label>
+    <input name="email" required type="email" />
+  </div>
 
-    <div>
-        <label for="">Email</label>
-        <input name="email" required type="email">
-    </div>
+  <div>
+    <label for="">Password</label>
+    <input name="password" required type="password" />
+  </div>
 
-    <div>
-        <label for="">Password</label>
-        <input name="password" required type="password">
-    </div>
-
-    <button>Submit</button>
+  <button>Submit</button>
 </form>
+
+<hr />
+
+<table>
+  <!-- email  -->
+  <tr>
+    <td>
+      <label for="email">Email</label>
+    </td>
+
+    <td>
+      <input  class="form-input" id="email" placeholder="Enter your email" type="email" />
+    </td>
+  </tr>
+
+  <!-- password  -->
+  <tr>
+    <td>
+      <label for="password">Password</label>
+    </td>
+    <td>
+      <input  class="form-input" id="password" placeholder="Enter your password" type="text" />
+    </td>
+  </tr>
+</table>
+
+<h2>File</h2>
+
+<input  type="file" name="" accept="video/mp4" />
+
+<h2>Date</h2>
+<input type="date" name="birthday" id="birthday" />
+
+<select name="" id="">
+  <option value="male">male</option>
+  <option value="female">female</option>
+</select>
 
 <hr>
 
+<h1>Radio input</h1>
+<div>
 
-<table>
-    <!-- email  -->
-    <tr>
+  <div>
+    <label for="js">JS</label>
+    <input class="radio-input"   id="js" name="prog"  value="js"  type="radio" />
 
-        <td>
-            <label for="">Email</label>
-        </td>
+  </div>
 
-        <td>
-            <input placeholder="Enter your email" type="email">
-        </td>
-    </tr>
+ <div>
+    <label for="html">HTML</label>
+    <input  class="radio-input"  id="html" name="prog"  value="html" type="radio" />
+ </div>
 
-    <!-- password  -->
-    <tr>
-        <td>
-            <label for="">Password</label>
-        </td>
-        <td>
-            <input placeholder="Enter your password" type="text">
-        </td>
-    </tr>
-</table>
+ <div>
+    <label for="css">CSS</label>
+    <input class="radio-input"   id="css" name="prog" value="css"  type="radio" />
+ </div>
+ 
+ <div>
+    <label  for="react">React</label>
+    <input class="radio-input"  id="react" name="prog" value="react" type="radio" />
+ </div>
+</div>
 
-<h2>File </h2>
-
-<input type="file" name="" accept="video/mp4" />
-
-<h2>Date</h2>
-<input type="date" name="birthday" id="birthday">
+<hr>

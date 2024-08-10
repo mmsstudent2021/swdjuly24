@@ -1,0 +1,43 @@
+.container{
+    background-color: rgb(253, 253, 152);
+    padding: 10px;
+    display: flex;
+    justify-content: center ;
+    height: 500px;
+    align-items: center;
+
+}
+
+.child1{
+    background-color: red;
+}
+
+.child2{
+    background-color: blue;
+}
+
+.child3{
+    background-color: gray;
+}
+
+.size{
+    width: 100px;
+    height: 100px;
+}
+
+.test{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.text1{
+    flex-basis: 50%;
+}
+
+.text2{
+    flex-basis: 50%;
+
+}

@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    padding: 0 10px;
+
+}

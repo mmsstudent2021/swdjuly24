@@ -1,0 +1,6 @@
+termial - ctrl + shift + `
+    npm init -y   |  folder ဆောက်ပြီးအသစ်ဆိုရင်လုပ်ပေးရမယ်။
+package.json ရလာမယ်
+
+paste - ctrl + shift + v
+

@@ -1,14 +1,30 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
-  <body>
+  <body id="start">
     <div id="app">Run</div>
-    <h1 class="text-red-500">Text Red</h1>
+    <section class="h-screen">
+      <h1 class="text-red-500">Text Red</h1>
+      <div class="h-[300px] bg-blue-500">test</div>
+    </section>
+
+    <section class="h-screen">
+      <div id="waypoint_div">Hello</div>
+    </section>
+
+    <a href="#start"
+      >
+      <button
+        id="waypoint_button"
+        class="fixed w-20 h-20 rounded-full opacity-0 transition-all duration-500 bottom-20 right-2 bg-red-400 px-5 py-5"
+      >Top</button>
+    </a>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
